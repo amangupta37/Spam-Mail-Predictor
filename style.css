@@ -135,6 +135,7 @@ button{
     background-color: black;
     border: solid springgreen .1rem;
     font-size: 1.3rem;
+    cursor: pointer
 }
 button:hover{
     font-size: 1.4rem;
