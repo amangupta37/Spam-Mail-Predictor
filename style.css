@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    height: 10rem;
+    background-color:black;
+   
+    border: solid springgreen 1px;
+    
+}
+
+
+.app-name{
+    color:springgreen;
+    font-size: 1.5rem;
+    font-family: monospace;
+    position: relative;
+    left: 1.2rem;
+    top:8rem;
+   
+}
+
+.logo{
+    position: relative;
+    left:2rem;
+    bottom:5.5rem;
+    width: 15rem;
+    height: 7rem;
+    border-radius: .2rem;
+    border: solid springgreen .5px;
+
+}
+.logo:hover{
+    border: solid springgreen 2px;
+
+}
+
+.nav{
+    background-color: white;
+  
+    width: 39rem;
+    height: 5rem;
+    position: relative;
+    top:2rem;
+    left: 50rem;
+    background-color: black;
+    color:white;
+    font-size: 2rem;
+    font-family: monospace;
+    
+   
+ 
+}
+a{
+    text-decoration: none;
+    padding: .8rem;
+    color: springgreen;
+}
+a:hover{
+    color: snow;
+}
+.new{
+    position: relative; 
+    top:10rem;
+    width: 100%;
+    height: 700px;
+   z-index: -1;
+    margin: 0;
+    background: url('./images/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.banner-img{
+
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+
+}
+.spam-dec{
+    position: relative;
+    top:10rem;
+    width: 100%;
+    height: 680px;
+    background-color:black;
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    border: solid springgreen 2px;
+   
+
+}
+.text-ar{
+    position: relative;;
+    width: 500px;
+    height: 300px;
+    bottom: 18rem;
+    left :31rem;
+    font-family: monospace;
+    font-size: 2rem;
+    border:solid springgreen .1rem;
+    background-color:black;
+    opacity: 0.8;
+    color: springgreen;
+     padding: 2rem;
+
+}
+.head-title{
+    color: white;
+    font-family: monospace;
+    position: relative;
+    top:4rem;
+    left: 30rem;
+    font-size: 4rem;
+    color: springgreen;
+}
+button{
+    color:white;
+    width: 12rem;
+    height: 3.5rem;
+    position: relative;
+    bottom: 14rem;
+    left:8rem;
+    background-color: black;
+    border: solid springgreen .1rem;
+    font-size: 1.3rem;
+}
+button:hover{
+    font-size: 1.4rem;
+}
