@@ -190,37 +190,53 @@ button:hover{
     top:2rem;
   
 }
-
-.titl{
+.project-info{
+    background-color: red;
     position: relative;
-    text-align: center;
-  bottom: 17rem;
-  font-family: monospace;
-  font-size: 4rem;
-  z-index: -1;
+    bottom:22.8rem;
+    height:40rem;
+    clip-path: polygon(0 9%, 100% 11%, 100% 93%, 0 86%);
+    z-index: -1;
+    background-color: black;
+    border: solid springgreen .1rem;
+
+}
+
+.title{
+   position: relative;
+   top:10rem;
+   text-align: center;
+   font-family: monospace;
+   font-size: 4rem;
+   color: white;
 }
 .pro-info{
     position: relative;
     left:15rem;
+    background-color: red;
    
 }
 .desc{
-    position: relative;
-    text-align: justify;
-   bottom: 15rem;
+   position: relative;
+   text-align: justify;
+    top:12rem;
    width: 70%;
+   left:15rem;
    font-family: monospace;
    font-size: 1.5rem;
-   border:solid white .1rem;
+   border:solid springgreen .1rem;
    padding: 1rem;
    z-index: -1;
+   color: white;
 
 }
+
+
 .dev{
     position: relative;
     width: 100%;
     background-color: black;
-    bottom: 3rem;
+   
     height: 25rem;
 }
 .dev-info{
@@ -240,3 +256,6 @@ button:hover{
     font-size: 3rem;
     text-align: center;
 }
+
+
+
