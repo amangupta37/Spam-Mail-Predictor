@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+ 
+ <!--<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/style.css') }}">--> 
+   
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Mail Predictor</title>
+</head>
+<body>
+   
+    <div id="header">
+
+        <h1 class="app-name">Spam Mail Predictor (SMP)</h1>
+
+        <div class="nav">
+          <a href="#about-project">About</a>   
+          <a href="#working">Working</a>
+          <a href="#developers-info">Developers</a>   
+          <a href="https://github.com/amangupta37/Spam-Mail-Predictor">Source Code</a>    
+        </div>
+
+        <!-- <img class="logo" src="{{ url_for('static', filename='/logo.jpg') }}">-->
+      <img class="logo" src="./images/logo.jpg">
+      
+  </div>
+
+ 
+
+  <div class="result">
+      
+    <div class="display">
+     <h1 class="result-title">Prediction Result ??</h1>
+     {% if prediction == 1%}
+        <h2 class="spam-msg">It's a Spam 🚫 !!!</h2>
+        {% elif prediction == 0%}
+        <h2 class="not-spam-msg">Not a Spam ✔️ (It is a Ham)</h2>
+        {% endif %}
+    </div>
+    
+
+</div>
+
+  <div class="result" id="working">
+      
+      <div class="display">
+       <h1 class="result-title">How This App Works </h1>
+
+       <div class="stage-1">
+          <div class="num-1">01</div>
+
+            <!-- <img class="s1-img" src="{{ url_for('static', filename='/logo.jpg') }}">-->
+          <img class="s1-img" src="images/stage-1.png">
+
+
+          <div class="text-1">
+            <h3 class="stage-desc">Enter Your Mail and hit predict button</h3>
+          </div>
+       </div>
+       <div class="stage-2">
+        <div class="num-1">02</div>
+          <!-- <img class="s2-img" src="{{ url_for('static', filename='/logo.jpg') }}">-->
+        <img class="s2-img" src="images/stage-2.png">
+        <div class="text-1">
+          <h3 class="stage-desc">Sending Data to Server</h3>
+        </div>
+
+     </div>
+     <div class="stage-3">
+      <div class="num-1">03</div>
+        <!-- <img class="s2-img" src="{{ url_for('static', filename='/logo.jpg') }}">-->
+      <img class="s2-img" src="images/stage-3.png">
+      <div class="text-1">
+        <h3 class="stage-desc">Detecting Spam Mail Using Naive Algorithm</h3>
+      </div>
+
+   </div>
+   <div class="stage-4">
+    <div class="num-1">04</div>
+      <!-- <img class="s3-img" src="{{ url_for('static', filename='/logo.jpg') }}">-->
+    <img class="s3-img" src="images/stage-4.png">
+    <div class="text-2">
+      <h3 class="stage-desc">Reciving Reault from Server</h3>
+    </div>
+
+
+ </div>
+
+      </div>
+
+  </div>
+  
+  <div class="project-info" id="about-project">
+  <h1 class="title">About Project</h1>
+  <div>
+    <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+</div>
+   
+      <div class="dev" >
+        <h1 class="dev-info" id="developers-info">Developers</h1>
+        <div class="dev-name">
+           <p>Satyam Kumar Singh (18IT23)</p>
+           <p>Ishant Sinha (18IT15)</p>
+           <p>Akash Debnath (18IT26)</p>
+           <p>Aman Gupta (18IT10)</p>
+       </div>
+      </div>
+     
+  </div>
+  
+
+ 
+</body>
+<script src="app.js"></script>
+</html>
