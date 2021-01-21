@@ -81,7 +81,7 @@ a:hover{
     height: 700px;
    z-index: -1;
     margin: 0;
-    background: url('./images/header.jpg');
+   
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -344,14 +344,18 @@ button:hover{
 .dev{
     position: relative;
     width: 100%;
+    z-index: -1;
+    bottom: 15rem;
     background-color: black;
-   
-    height: 25rem;
+
+    height: 30rem;
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 0 100%);
+
 }
 .dev-info{
     position: relative;
     text-align: center;
-    top:3rem;
+    top:6rem;
     font-family: monospace;
     font-size: 4rem;
     color: #EB1CA5;
@@ -360,9 +364,9 @@ button:hover{
     position: relative;
     color: white;
     padding: 1REM;
-    top:6rem;
+    top:7rem;
     font-family: monospace;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
 }
 
