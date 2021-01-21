@@ -112,7 +112,7 @@ a:hover{
     position: relative;
     width: 500px;
     height: 300px;
-    bottom: 18rem;
+    bottom: 22rem;
     left :31rem;
     font-family: monospace;
     font-size: 2rem;
@@ -137,8 +137,8 @@ button{
     width: 12rem;
     height: 3.5rem;
     position: relative;
-    bottom: 14rem;
-    left:8rem;
+    bottom: 18rem;
+    left:8.5rem;
     background-color: black;
     border: solid springgreen .1rem;
     font-size: 1.3rem;
@@ -158,7 +158,6 @@ button:hover{
   
     position: relative;
     clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
-
     bottom: 18.9rem;
     background-color: black;
     width: 200rem;
@@ -173,23 +172,133 @@ button:hover{
     position: relative;
     z-index: 1;
     background-color: black;
-    
-    top:27rem;
+    top:18rem;
     left:24rem;
     width: 50rem;
-    height: 50rem;
+    height: 60rem;
     border: solid springgreen .1rem;
 
 }
 .result-title{
-    color:white;
-    font-family: monospace;
-    font-size: 4rem;
+    color:springgreen;
+    font-family:monospace;
+    font-size: 3rem;
     position: relative;
-    left: 8rem;
+    left: 13rem;
     top:2rem;
   
 }
+
+.stage-1{
+    background-color:black;
+    width:40rem;
+    height: 10rem;
+    position: relative;
+    left:5rem;
+    top:5rem;
+}
+
+.stage-2{
+    background-color:black;
+    width:40rem;
+    height: 10rem;
+    position: relative;
+    left:5rem;
+    top:8rem;
+}
+.stage-3{
+    background-color: black;
+    width:40rem;
+    height: 10rem;
+    position: relative;
+    left:5rem;
+    top:11rem;
+}
+.stage-4{
+    background-color:black;
+    width:40rem;
+    height: 10rem;
+    position: relative;
+    left:5rem;
+    top:14rem;
+}
+
+.num-1{
+    width:4rem;
+    height:3rem;
+    background-color:black;
+    position: relative;
+    left:.5rem;
+    top:.5rem;
+    font-family:Courier, monospace;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.s1-img{
+    width: 13rem;
+    height: 10rem;
+    position: relative;
+    left:5rem;
+    bottom: 3rem;
+    border: solid springgreen .1rem;
+}
+
+.s2-img{
+    width: 11rem;
+    height: 10rem;
+    position: relative;
+    left:5rem;
+    bottom: 3rem;
+    border: solid springgreen .1rem;
+}
+
+.s3-img{
+    width: 13rem;
+    height: 8rem;
+    position: relative;
+    left:5rem;
+    bottom: 3rem;
+    border: solid springgreen .1rem;
+}
+
+
+
+.text-1{
+    background-color:black;
+    width: 21rem;
+    height: 10rem;
+    position: relative;
+    bottom:13.2rem;
+    left: 19rem;
+    z-index: 2;
+    color: white;
+    font-family: monospace;
+    font-size: 2rem;
+}
+.text-2{
+    background-color:black;
+    width: 20rem;
+    height: 7rem;
+    position: relative;
+    bottom:11rem;
+    left: 19rem;
+    z-index: 2;
+    color: white;
+    font-family: monospace;
+    font-size: 2rem;
+}
+.stage-desc{
+    
+    position: relative;
+    left: 1rem;
+    font-family: monospace;
+    top:1rem;
+}
+
+
+
 .project-info{
     background-color: red;
     position: relative;
@@ -206,7 +315,7 @@ button:hover{
    position: relative;
    top:10rem;
    text-align: center;
-   font-family: monospace;
+   font-family:  monospace;
    font-size: 4rem;
    color: white;
 }
