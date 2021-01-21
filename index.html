@@ -43,8 +43,8 @@
      <img class="mail-bug" src="./images/mailbug.png">
  </div>
  <form action="{{ url_for('predict')}}" method="POST">
-  <textarea id="input-data" class="text-ar" placeholder="Enter Your Mail Here !!!" required></textarea>
-  <button type="button" id="btn-data">Predict Now</button>
+  <textarea name="message" id="input-data" class="text-ar" placeholder="Enter Your Mail Here !!!" required></textarea>
+  <button type="submit" id="btn-data" value="predict">Predict Now</button>
  </form>
 
   <div class="result" id="working">
